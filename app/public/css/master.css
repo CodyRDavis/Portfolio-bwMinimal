@@ -1,0 +1,23 @@
+html, body{
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    background-color: black;
+}
+
+.page{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.banner{
+    height: 64px;
+    background-color: white;
+    color: black;
+}
+
+nav{
+    position: fixed;
+    top: 8px;
+    left: 16px;
+}
