@@ -16,8 +16,15 @@
     padding: 15px;
     border: 1px solid red;
 }
-
-.row::after {
+.row{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.row-large{
+    max-width: 100%;
+}
+.row::after, .row-large::after {
     content: "";
     clear: both;
     display: table;
