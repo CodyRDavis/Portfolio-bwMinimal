@@ -18,11 +18,13 @@
 }
 .row{
     width: 100%;
+    padding: 60px 0px;
     max-width: 900px;
     margin: 0 auto;
 }
 .row-large{
     max-width: 100%;
+    padding: 60px 0px;
 }
 .row::after, .row-large::after {
     content: "";

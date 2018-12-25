@@ -87,7 +87,7 @@ nav{
 .section-title{
     color: white;
     background-color: #ff8a00;
-    padding: 60px 0px;
+    /*padding: 60px 0px;*/
     display: flex;
     align-items: center;
 }
