@@ -33,6 +33,10 @@ p{
     margin: 0 auto;
 }
 
+.vh-99{
+    height: 99vh;
+}
+
 /*NAVIGATION
 #########################################################*/
 nav{
@@ -83,7 +87,7 @@ nav{
 .section-title{
     color: white;
     background-color: #ff8a00;
-    height: 99vh;
+    padding: 60px 0px;
     display: flex;
     align-items: center;
 }
