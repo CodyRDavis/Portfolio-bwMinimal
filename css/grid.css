@@ -13,12 +13,10 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
     border: 1px solid red;
 }
 .row{
     width: 100%;
-    padding: 60px 0px;
     max-width: 900px;
     margin: 0 auto;
 }
@@ -26,8 +24,32 @@
     max-width: 100%;
     padding: 60px 0px;
 }
-.row::after, .row-large::after {
+.row::after, .row-large::after, .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.p-16{
+    padding: 16px;
+}
+.ml-auto {
+    margin: 0px auto;
+}
+
+.float-right {
+    float: right;
+}
+
+.spacer-sm{
+    height: 16px;
+}
+.spacer-med{
+    height: 32px;
+}
+.spacer-lg{
+    height: 48px;
+}
+.spacer-xl{
+    height: 64px;
 }
